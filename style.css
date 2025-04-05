@@ -1,0 +1,24 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    
+}
+
+
+header{
+    background-color: #ffd88d;
+}
+
+body header nav a{
+    padding-left: 1rem;
+    padding-right: 1rem;
+}
+
+.d-flex{
+    margin-left: 1rem;
+}
+.card-wrapper {
+    display: flex;
+    
+}
