@@ -3,11 +3,24 @@
     margin: 0;
     box-sizing: border-box;
     
+    
 }
-
-
 header{
     background-color: #ffd88d;
+}
+
+/*ESTILOS DEL INDEX*/
+
+/*    Mobile    */
+
+
+.redes {
+    display: flex;
+    padding-top: 0.5rem;
+    padding-bottom: 1.2rem;
+    flex-direction: row;
+    justify-content: space-evenly
+
 }
 
 body header nav a{
@@ -15,10 +28,37 @@ body header nav a{
     padding-right: 1rem;
 }
 
-.d-flex{
-    margin-left: 1rem;
-}
-.card-wrapper {
+.carrusel-fotos-primeras img{
     display: flex;
-    
+    width: 100%;
+    height: 90vh;
+    object-fit: cover;
+    align-content: center;
+}
+
+
+.caja-informativa{
+    display: grid;
+    column-gap: 2rem;
+    grid-template-columns: 60px 240px;
+    grid-template-rows: 70px  70px 70px;
+    justify-content: center;
+    align-content: center;
+    align-items: center;
+    justify-items: center;
+    border: 2px solid #bfa167;
+    padding: 1rem;
+    margin: 1rem;
+    background-color: #ffd88d;
+    border-radius: 25px;
+   
+}
+
+p{
+    font-size: 20px;
+    font-family: "Quicksand", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 600;
+    font-style: normal;
+
 }
