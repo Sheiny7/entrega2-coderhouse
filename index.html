@@ -20,7 +20,7 @@
 
 </head>
 <body>
-    <header>
+  <header>
       <!---------------------------------------------nav------------------------------------------------>
         <nav data-bs-spy="navbar-toggler" class="navbar navbar-expand-lg nav">
           <!----logo----->
@@ -147,107 +147,81 @@
 
     <!--carrusel de novedades-->
 
-    <section>
-      <h3>¡LO NUEVO!</h3>
-        <div class="card" style="width: 18rem;">
-          <img src="img/agenda.jpg" class="card-img-top" alt="...">
-          <div class="card-body">
-            <h5 class="card-title">Card title</h5>
-            <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-            <a href="#" class="btn btn-primary">Go somewhere</a>
+    <div class="container">
+      <h2>¡Lo nuevo!</h2>
+      <div id="carouselExample" class="carousel slide">
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <div class="card h-60">
+              <img src="img/agenda.jpg" class="card-img-top" alt="...">
+              <div class="card-body">
+                <h5 class="card-title">Card title</h5>
+                  <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                  <a href="#" class="btn btn-primary">Go somewhere</a>
+                </div>
+              </div>
+            </div>
+            <div class="carousel-item">
+              <div class="card" >
+                <img src="img/cuaderno-a5.jpg" class="card-img-top" alt="...">
+                <div class="card-body">
+                  <h5 class="card-title">Card title</h5>
+                  <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                  <a href="#" class="btn btn-primary">Go somewhere</a>
+                </div>
+              </div>
+            </div>
+            <div class="carousel-item">
+              <div class="card h-100">
+                <img src="img/lapices-de-colores-lata.jpg" class="card-img-top" alt="...">
+                <div class="card-body">
+                  <h5 class="card-title">Card title</h5>
+                  <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                  <a href="#" class="btn btn-primary">Go somewhere</a>
+                </div>
+              </div>
+            </div>
           </div>
+          <button class="carousel-control-prev" type="button" data-bs-target="#carouselExample" data-bs-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+          </button>
+          <button class="carousel-control-next" type="button" data-bs-target="#carouselExample" data-bs-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+          </button>
         </div>
-        <div class="card" style="width: 18rem;">
-          <img src="img/block.jpg" class="card-img-top" alt="...">
-          <div class="card-body">
-            <h5 class="card-title">Card title</h5>
-            <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-            <a href="#" class="btn btn-primary">Go somewhere</a>
-          </div>
-        </div>
-        <div class="card" style="width: 18rem;">
-          <img src="img/cuaderno-novedad.jpg" class="card-img-top" alt="...">
-          <div class="card-body">
-          <h5 class="card-title">Card title</h5>
-            <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-            <a href="#" class="btn btn-primary">Go somewhere</a>
-          </div>
-        </div>
-        <div class="card" style="width: 18rem;">
-          <img src="img/stiky-note.jpg" class="card-img-top" alt="...">
-          <div class="card-body">
-            <h5 class="card-title">Card title</h5>
-            <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-            <a href="#" class="btn btn-primary">Go somewhere</a>
-          </div>
-        </div>
-    </section>
-
-    <!--carrusel de promociones----------->
-
-    <section> 
-      <h3>¡PROMO!</h3>
-        <div class="card" style="width: 18rem;">
-          <img src="img/agenda.jpg" class="card-img-top" alt="...">
-          <div class="card-body">
-            <h5 class="card-title">Card title</h5>
-            <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-            <a href="#" class="btn btn-primary">Go somewhere</a>
-          </div>
-        </div>
-        <div class="card" style="width: 18rem;">
-          <img src="img/block.jpg" class="card-img-top" alt="...">
-          <div class="card-body">
-            <h5 class="card-title">Card title</h5>
-            <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-            <a href="#" class="btn btn-primary">Go somewhere</a>
-          </div>
-        </div>
-        <div class="card" style="width: 18rem;">
-          <img src="img/cuaderno-novedad.jpg" class="card-img-top" alt="...">
-          <div class="card-body">
-          <h5 class="card-title">Card title</h5>
-            <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-            <a href="#" class="btn btn-primary">Go somewhere</a>
-          </div>
-        </div>
-        <div class="card" style="width: 18rem;">
-          <img src="img/stiky-note.jpg" class="card-img-top" alt="...">
-          <div class="card-body">
-            <h5 class="card-title">Card title</h5>
-            <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-            <a href="#" class="btn btn-primary">Go somewhere</a>
-          </div>
-        </div>
-    </section>
+      </div>
 
 
-    <!--------categorias--------->
+  
+
+        <!--------categorias--------->
 
 
-    <div class="container text-center">
+    <div class="container text-center categorias">
       <div class="row align-items-start">
-        <div class="card mb-3 row categoria" style="max-width: 18rem; height: 25.1rem;">
+        <div class="card mb-3 row categoria" style="max-width: 2rem; height: 15rem;">
           <div class="card-header" style="text-align: center;">Categoria</div>
           <img src="img/stiky-note-kawai.jpg" alt="" style="max-width: 18rem;">
             <div class="card-body">
           </div>
        </div>
        <div class="col">
-    <div class="card mb-3 row categoria" style="max-width: 18rem; height: 25.1rem;">
+    <div class="card mb-3 row categoria" style="max-width: 2rem; height: 15rem;">
       <div class="card-header" style="text-align: center;">Categoria</div>
       <img src="img/stiky-note-kawai.jpg" alt="" style="max-width: 18rem;">
       <div class="card-body">
       </div>
     </div>
     <div class="col"></div>
-    <div class="card mb-3 row categoria" style="max-width: 18rem; height: 25.1rem;">
+    <div class="card mb-3 row categoria" style="max-width: 2rem; height: 15rem;">
       <div class="card-header" style="text-align: center;">Categoria</div>
-      <img src="img/stiky-note-kawai.jpg" alt="" style="max-width: 18rem;">
+      <img src="img/stiky-note-kawai.jpg" alt="" style="max-width: 2rem;">
       <div class="card-body">
       </div>
     </div>
-    <div class="card mb-3 row categoria" style="max-width: 18rem; height: 25.1rem;">
+    <div class="card mb-3 row categoria" style="max-width: 2rem; height: 15rem;">
       <div class="card-header" style="text-align: center;">Categoria</div>
       <img src="img/stiky-note-kawai.jpg" alt="" style="max-width: 18rem;">
       <div class="card-body">
@@ -259,25 +233,25 @@
     <footer>
       <div>
         <div>
-          <h5>Redes Sociales</h5>
-          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquid, harum minus facilis saepe explicabo illo nihil et expedita quasi officiis ad a autem similique libero tempore cupiditate culpa quis consequatur!</p>
+          <h5 class="color-fondo-texto">Redes Sociales</h5>
+          <p class="color-fondo-texto">Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquid, harum minus facilis saepe explicabo illo </p>
         </div>
         <div>
-          <h5>Preguntas Frecuentes</h5>
+          <h5 class="color-fondo-texto">Preguntas Frecuentes</h5>
         </div>
         <div>
-          <h5>Medios de Pago</h5>
+          <h5 class="color-fondo-texto">Medios de Pago</h5>
         </div>
         <section class="newsletter">
           <div class="container">
               <div class="row">
                   <div class="col-sm-12">
                     <div class="content">
-                  <h5>SUBSCRIBE TO OUR NEWSLETTER</h5>
+                  <h5 class="color-fondo-texto">SUBSCRIBE TO OUR NEWSLETTER</h5>
                         <div class="input-group">
                               <input type="email" class="form-control" placeholder="Enter your email">
                               <span class="input-group-btn">
-                              <button class="btn" type="submit">Subscribe Now</button>
+                              <button class="btn" submit">Subscribe Now</button>
                               </span>
                           </div>
                     </div>
@@ -286,7 +260,7 @@
           </div>
       </section>
         <div>
-          <h6>Copyright Bigotes de Papel - 2025</h6>
+          <h6 class="color-fondo-texto">Copyright Bigotes de Papel - 2025</h6>
         </div>
 
       </div>

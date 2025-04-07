@@ -5,8 +5,10 @@
     
     
 }
+
 header{
     background-color: #ffd88d;
+    
 }
 
 /*ESTILOS DEL INDEX*/
@@ -62,3 +64,53 @@ p{
     font-style: normal;
 
 }
+ h2{
+    display: flex;
+    align-items: center;
+    font-size: 10rem;;
+    font-family:"Indie Flower", cursive;
+    font-weight: 400;
+    font-style: normal;
+
+}
+.card{
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    height: 20rem;
+}
+
+.categorias .categoria{
+    display: grid;
+    gap: 1rem;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+    justify-content: center;
+    align-content: center;
+    align-items: center;
+    justify-items: center;
+}
+
+footer{
+    
+    background-image:url(img/Bigotes-portada.png);
+    border: #bfa167 solid;
+    margin-top: 2rem; 
+    
+
+
+}
+
+footer div {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(2 1fr);
+
+}
+
+.color-fondo-texto{
+    background-color: #ffd88d;
+    border-radius: 2%;
+}
+
+
