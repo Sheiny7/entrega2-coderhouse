@@ -9,6 +9,7 @@
 header{
     background-color: #ffd88d;
     
+    
 }
 
 /*ESTILOS DEL INDEX*/
@@ -56,18 +57,10 @@ body header nav a{
    
 }
 
-p{
-    font-size: 20px;
-    font-family: "Quicksand", sans-serif;
-    font-optical-sizing: auto;
-    font-weight: 600;
-    font-style: normal;
 
-}
- h2{
-    display: flex;
-    align-items: center;
-    font-size: 10rem;;
+div h2{
+    text-align: center;
+    font-size: 3rem;;
     font-family:"Indie Flower", cursive;
     font-weight: 400;
     font-style: normal;
@@ -78,6 +71,7 @@ p{
     justify-content: center;
     align-content: center;
     height: 20rem;
+    
 }
 
 .categorias .categoria{
@@ -96,9 +90,6 @@ footer{
     background-image:url(img/Bigotes-portada.png);
     border: #bfa167 solid;
     margin-top: 2rem; 
-    
-
-
 }
 
 footer div {
